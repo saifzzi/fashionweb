@@ -1,0 +1,711 @@
+
+*{
+    box-sizing: border-box;
+    margin:0%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+/*Navbar*/
+.navi{
+    background-color: black;
+    padding: 10px;
+}
+.navi a img{
+    padding: 8px;
+    width: 40px;
+}
+
+/* Navbar */
+
+/* Header Title */
+.Headti{
+        text-align: center;
+        padding: 120px;
+        font-size: 25px;
+        font-family: cursive;
+}
+
+.Headti span{
+        background-color: black;
+        color: white;
+        padding: 2px;
+}
+
+/*Header Title  */
+
+/* Main page image css */
+
+
+/* Main page image css */
+
+main{
+    background-color: gray;
+}
+
+/* Main page image title */
+.hed1{
+    color: white;
+    font-size: 70px;
+    padding: 5px 50px;
+}
+
+.hed2{
+    color: white;
+    font-size: 70px;
+    padding: 10px 50px;
+}
+
+.hed3{
+    color: black;
+    text-decoration: none;
+    padding: 5px 50px;
+    font-size: 20px;
+}
+
+.subscribebtn{
+    background-color: gray;
+    padding: 10px;
+    margin: 50px;
+    
+}
+
+.subscribebtn:hover {
+    background-color: #a5a5a5;    
+}
+
+.subscribebtn:active {
+    background-color: #fdfdfd;
+    box-shadow: 0 5px #666;
+    transform: translateY(1px);
+}
+
+.backcontainer{
+    position: relative;
+    width: 100%;
+    /* max-width: 400px; */
+}
+
+.backcontainer img{
+          width: 100%;
+          height: auto;
+}
+
+.mainheding{
+       position: absolute;
+       top: 40%;
+       transform: translate (-50%, -50%) ;
+       -ms-transform: translate(-50%, -50%);
+
+}
+
+/* Main page image title */
+
+
+/* Article post 1 */
+
+.post1{
+     margin: 15px;
+    background-color: #ffffff;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.post1title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.post1img{
+    width: 75%;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.post1des{
+    font-family: sans-serif;
+    margin: 30px;
+    word-spacing: 2px;
+    letter-spacing: 0.4px;
+    text-align: justify;
+}
+
+.replysicon{
+    float: right;
+    margin-right: 30px;
+    width: 30px;
+}
+
+.likeicon{
+    margin-left: 30px;
+    width: 40px;
+}
+
+
+.postprofileimg1{
+    width: 100px;
+    margin-left: 30px;
+    float: left;
+    border-radius: 4px;
+}
+
+.replycomment{
+       text-align: left;
+       margin-left: 140px;
+}
+
+
+/* Post 3 */
+
+.post3{
+    margin: 15px;
+    background-color: #000000;
+    /* padding: 5px 20px 15px 20px; */
+    /* border: 1px solid lightgray; */
+    border-radius: 4px;
+}
+
+.post3 img{
+    width: 100%;
+}
+
+.post3des{
+    color: white;
+    padding: 10px 12px;
+}
+
+.post3des p{
+    font-family: monospace;
+    font-size: 15px;
+}
+
+/* Popular Post */
+.popularpost{
+    margin: 15px;
+   background-color: #ffffff;
+}
+
+.popularpost h2{
+    padding: 5px 20px 15px 20px;
+    background-color: black;
+    color: white;
+}
+
+.popularpost img{
+    width: 10%;
+    padding: 3px 4px 4px 3px;
+    margin: 5px;
+    float: left;
+}
+
+.popularpost p{
+    padding: 25px 40px 40px 25px;
+    font-size: 20px;
+}
+
+.popularpost a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.postdes{
+    color: rgb(119, 119, 119);
+}
+/* Advertise */
+
+.advertise{
+    margin: 15px;
+    background-color: #ffffff;
+}
+
+.advertise h2{
+    padding: 5px 20px 15px 20px;
+    background-color: black;
+    color: white;
+}
+
+.adshere{
+    margin: 12px;
+    background-color: #ebebeb;
+    padding: 70px;
+    text-align: center;
+}
+
+
+/* Tags */
+
+.tags{
+    margin: 15px;
+    background-color: #ffffff;
+}
+
+.tags h2{
+    padding: 5px 20px 15px 20px;
+    background-color: black;
+    color: white;
+}
+
+.tags2{
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.tags2 a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(233, 233, 233);
+    /* float: left; */
+    padding: 2px 3px 3px 2px;
+    margin: 4px;
+    font-size: 12px;
+}
+
+
+/* Inspiration */
+
+.inspiration{
+    margin: 15px;
+    background-color: #ffffff;
+}
+
+.inspiration h2{
+    padding: 5px 20px 15px 20px;
+    background-color: black;
+    color: white;
+}
+
+.grid-container-img{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.grid-container-img > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* border: 1px solid black; */
+    justify-content: center;
+    width: 25%;
+}
+
+.grid-container-img > div >img {
+    width: 400%;
+}
+
+
+
+/* Follow me */
+
+.follow-me{
+    margin: 15px;
+    background-color: #ffffff;
+}
+
+.follow-me h2{
+    padding: 5px 20px 15px 20px;
+    background-color: black;
+    color: white;
+}
+
+.follow-me img{
+    padding: 5px;
+    margin: 5px;
+}
+
+
+/* Subscribe */
+
+.Subscribe{
+    margin: 15px;
+    background-color: #ffffff;
+}
+
+.Subscribe h2{
+    padding: 5px 20px 15px 20px;
+    background-color: black;
+    color: white;
+}
+
+
+.Subscribe p{
+       padding: 8px;
+}
+
+.Subscribe input{
+    padding: 5px;
+    margin: 8px;
+    width: 95%;
+    border: 1px solid #ccc;
+}
+
+.sub-button{
+          display: inline-block;
+          padding: 8px 10px;
+          cursor: pointer;
+          text-align: center;
+          text-decoration: none;
+          outline: none;
+          color: #fff;
+          background-color: #f03d36;
+          border: none;
+          border-radius: 4px;
+          box-shadow: 0 2px #999;
+          width: 95%;
+          margin: 8px;
+}
+
+.sub-button:hover {background-color: #f51515;}
+
+.sub-button:active {
+    background-color: #000000;
+    box-shadow: 0 5px #666;
+    transform: translateY(1px);
+}
+
+
+
+/* Footer */
+.footer-container{
+    background-color: rgb(70, 70, 70);
+    font-size: 20px;
+}
+
+footer h2{
+    text-align: center;
+    padding: 10px;
+    color: #d4d4d4;
+}
+
+
+.footer-name{
+    /* margin-left: 40%; */
+    padding: 10px;
+    word-spacing: 2px;
+    text-align: center;
+}
+
+.footer-name p{
+      padding: 5px;
+}
+
+
+.footer-roll p{
+    padding: 5px;
+}
+
+.copyright-text{
+    text-align: center;
+    background-color: #000000;
+    color: #ccc;
+    padding: 4px;
+}
+/* END OF NORMAL CSS */
+/* END OF NORMAL CSS */
+/* END OF NORMAL CSS */
+/* END OF NORMAL CSS */
+
+
+/* Responsive */
+
+
+@media screen and (max-width:1100px) {
+    .hed1{
+        color: white;
+        font-size: 60px;
+        padding: 5px 50px;
+    }
+    
+    .hed2{
+        color: white;
+        font-size: 60px;
+        padding: 10px 50px;
+    }
+    
+    .hed3{
+        color: black;
+        text-decoration: none;
+        padding: 5px 50px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:890px) {
+   
+/* Header Title */
+    .Headti{
+        text-align: center;
+        padding: 120px;
+        font-size: 20px;
+        font-family: cursive;
+}
+
+.Headti span{
+        background-color: black;
+        color: white;
+        padding: 2px;
+}
+
+/* Main Image */
+    .mainheding{
+        position: absolute;
+        top: 30%;
+        transform: translate (-50%, -50%) ;
+        -ms-transform: translate(-50%, -50%);
+ 
+ }
+    
+    .hed1{
+        color: white;
+        font-size: 45px;
+        padding: 5px 50px;
+    }
+    
+    .hed2{
+        color: white;
+        font-size: 45px;
+        padding: 10px 50px;
+    }
+    
+    .hed3{
+        color: black;
+        text-decoration: none;
+        padding: 5px 20px;
+        font-size: 20px;
+    }
+
+    .subscribebtn{
+        background-color: gray;
+        padding: 10px;
+        margin: 50px;
+        
+    }
+
+    /* Popular post */
+    .popularpost img{
+        width: 10%;
+        padding: 3px 4px 4px 3px;
+        margin: 5px;
+        float: left;
+    }
+    
+    .popularpost p{
+        padding: 15px 28px 28px 15px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:660px) {
+
+    /* Post Reply */
+    .postprofileimg1{
+        width: 70px;
+        margin-left: 30px;
+        float: left;
+        border-radius: 4px;
+    }
+    
+    .replycomment{
+        text-align: left;
+        margin-left: 110px;
+        font-size: 12px;
+ }
+    
+
+    /* Main Image */
+    .mainheding{
+        position: absolute;
+        top: 30%;
+        transform: translate (-50%, -50%) ;
+        -ms-transform: translate(-50%, -50%);
+ 
+ }
+    
+    .hed1{
+        color: white;
+        font-size: 35px;
+        padding: 5px 50px;
+    }
+    
+    .hed2{
+        color: white;
+        font-size: 35px;
+        padding: 5px 50px;
+    }
+    
+    .hed3{
+        color: black;
+        text-decoration: none;
+        padding: 5px 10px;
+        font-size: 18px;
+    }
+
+    .subscribebtn{
+        background-color: gray;
+        padding: 10px;
+        margin: 50px;
+        
+    }
+
+    /* Popular post */
+    .popularpost img{
+        width: 10%;
+        padding: 3px 4px 4px 3px;
+        margin: 5px;
+        float: left;
+    }
+    
+    .popularpost p{
+        padding: 10px 22px 22px 10px;
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:515px) {
+   /* Header title */
+   
+   .Headti{
+    text-align: center;
+    padding: 100px;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.Headti span{
+    background-color: black;
+    color: white;
+    padding: 2px;
+}
+
+   /* Main Image */
+    .mainheding{
+        position: absolute;
+        top: 25%;
+        transform: translate (-50%, -50%) ;
+        -ms-transform: translate(-50%, -50%);
+ 
+ }
+    
+    .hed1{
+        color: white;
+        font-size: 25px;
+        padding: 5px 50px;
+    }
+    
+    .hed2{
+        color: white;
+        font-size: 25px;
+        padding: 5px 50px;
+    }
+    
+    .hed3{
+        color: black;
+        text-decoration: none;
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+
+    .subscribebtn{
+        background-color: gray;
+        padding: 7px;
+        margin: 50px;
+        
+    }
+
+    /* Popular post */
+    .popularpost img{
+        width: 10%;
+        padding: 3px 4px 4px 3px;
+        margin: 5px;
+        float: left;
+    }
+    
+    .popularpost p{
+        padding: 6px 10px 10px 6px;
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:410px) {
+
+/* Header Title */
+
+.Headti{
+    text-align: center;
+    padding: 60px;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.Headti span{
+    background-color: black;
+    color: white;
+    padding: 2px;
+}
+
+    /* Main Image */
+    .mainheding{
+        position: absolute;
+        top: 25%;
+        transform: translate (-50%, -50%) ;
+        -ms-transform: translate(-50%, -50%);
+ 
+ }
+    
+    .hed1{
+        color: white;
+        font-size: 20px;
+        padding: 5px 30px;
+    }
+    
+    .hed2{
+        color: white;
+        font-size: 20px;
+        padding: 3px 30px;
+    }
+    
+    .hed3{
+        color: black;
+        text-decoration: none;
+        padding: 3px 6px;
+        font-size: 12px;
+    }
+
+    .subscribebtn{
+        background-color: gray;
+        padding: 2px;
+        margin: 30px;
+        
+    }
+
+    /* popular post */
+     /* Popular post */
+     .popularpost img{
+        width: 9%;
+        padding: 3px 4px 4px 3px;
+        margin: 5px;
+        float: left;
+    }
+    
+    .popularpost p{
+        padding: 2px 4px 4px 2px;
+        font-size: 14px;
+    }
+    
+}
